@@ -1,0 +1,137 @@
+.container{
+	width:1254px;
+	border:1px solid #D3EBEB;
+	padding:0;
+	box-sizing:border-box;
+	padding-bottom:20px;
+}
+header {
+    width: 100%;
+    height: 80px;
+    background: url(../img/header.png) no-repeat;
+}
+.banner{
+	height: 290px;
+	background:url(../img/logo.png) no-repeat;
+	background-size:100% 100%;;
+}
+.row{
+	margin:0;
+}
+.rowbox{
+	width:1024px;
+	margin:0 auto;
+	overflow:hidden;
+}
+.loginBox{
+	height:290px;
+	background:red;
+}
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12{
+	padding:0;
+}
+.loginWraper{
+	padding:10px 0;
+	background:url(../img/bg.jpg) repeat-x;
+}
+.panel-title {
+    width: 100%;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    position: relative;
+    color: #169992;
+    background: #f2f2f2 url(../img/title-bg.jpg) repeat;
+    border-bottom: 1px solid #dedede;
+}
+.panel-title .titleWraper {
+    width: 280px;
+    height: 36px;
+    position: absolute;
+    top: -2px;
+    left: 20px;
+    border-bottom: 2px solid #0f928d;
+}
+.panel-title .titleWraper img {
+    position: absolute;
+    top: 10px;
+    left: 7px;
+}
+.panel-title .title-text {
+    position: absolute;
+    top: 4px;
+    left: 25px;
+    color: 0d8383;
+    font: normal bold 14px/32px 宋体,arial,sans-serif;
+}
+.allmsginfo{
+	margin-top:15px;
+}
+.panel-content-title {
+    border-bottom: 1px dashed #D3D3D3;
+    color: #4f4f4f;
+    font: 14px/50px "宋体",arial,sans-serif;
+	padding-left:15px;
+}
+.graphicalBox{
+	
+}
+.tzgg {
+    position: absolute;
+    border: 0px;
+    top: 2px;
+    left: 20px;
+    width: 121px;
+    height: 40px;
+    background: url(../img/title-tzgg.png) no-repeat;
+    z-index: 10;
+}
+.panel-left{
+	padding-right:10px;
+	box-sizing:border-box;
+}
+.panel-left-box,.panel-right {
+   
+    border: 1px solid #dedede;
+}
+.itemlist{
+	width:95%;
+	
+    color: #848383;
+    padding: 5px 0;
+    font: 13px/20px 宋体,arial,sans-serif;
+	float:left;
+}
+.tipImg{
+	width:5%;
+	float:left;
+	position:relative;
+	margin-top:7%;
+}
+.qxyjitem>li{
+	overflow:hidden;
+	position:relative;
+	border-bottom: 1px solid #D3D3D3;
+}
+.qxyjitem>li:last-child{
+	border-bottom:0;
+}
+.cylindricalGraph{
+	width:90%;
+	height:200px;
+	overflow: hidden;
+	margin:0 auto;
+}
+.pieChartLeftBox,.pieChartRightBox {
+	width:50%;
+	height:200px;
+	float:left;
+}
+.pieChart{
+	overflow:hidden;
+}
+.numberStyle{
+	font-weight:bold;
+	color: #f20001;
+    font-size: 18px;
+}
