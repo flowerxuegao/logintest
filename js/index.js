@@ -7,14 +7,14 @@
 			// 指定图表的配置项和数据
 			var option = {
 				title: {
-					text: '示例'
+					text: '抢修概况'
 				},
 				tooltip: {},
 				legend: {
 					data:['销量']
 				},
 				xAxis: {
-					data: ["衬衫","羊毛衫","雪纺衫","裤子","高跟鞋","袜子"]
+					data: ["漳泽","武乡","配电","平顺","襄垣","屯留"]
 				},
 				yAxis: {},
 				series: [{
@@ -32,8 +32,8 @@
 			var myLeftChart = echarts.init(document.getElementById('pieChartLeft'));
 			var leftoption = {
 				title : {
-					text: '某站点用户访问来源',
-					subtext: '纯属虚构',
+					text: '',
+					subtext: '',
 					x:'center'
 				},
 				tooltip : {
@@ -71,8 +71,8 @@
 			var myRigntChart = echarts.init(document.getElementById('pieChartRight'));
 			var rightoption = {
 				title : {
-					text: '某站点用户访问来源',
-					subtext: '纯属虚构',
+					text: '',
+					subtext: '',
 					x:'center'
 				},
 				tooltip : {
