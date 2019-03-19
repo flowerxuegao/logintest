@@ -9,6 +9,7 @@
 				title: {
 					text: '抢修概况'
 				},
+				color:"#03d8c1",
 				tooltip: {},
 				legend: {
 					data:['销量']
@@ -36,6 +37,7 @@
 					subtext: '',
 					x:'center'
 				},
+				color:['#f07f07','#068dc7','#19c6c1'],
 				tooltip : {
 					trigger: 'item',
 					formatter: "{a} <br/>{b} : {c} ({d}%)"
@@ -79,6 +81,7 @@
 					trigger: 'item',
 					formatter: "{a} <br/>{b} : {c} ({d}%)"
 				},
+				color:['#f07f07','#068dc7','#f5d210'],
 				legend: {
 					orient: 'vertical',
 					left: 'left',
