@@ -108,6 +108,10 @@ header {
 	position:relative;
 	margin-top:7%;
 }
+.qxyjitem{
+	height:442px;
+	overflow:auto;
+}
 .qxyjitem>li{
 	overflow:hidden;
 	position:relative;
